@@ -23,6 +23,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
 
 </head>
 
@@ -40,6 +41,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
@@ -47,7 +51,7 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#story">Story</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -68,42 +72,55 @@
     </div>
   </header>
 
+<!-- About -->
+<section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">Who am I?</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
   <!-- Skills -->
   <section class="page-section" id="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Skills</h2>
-          <h3 class="section-subheading text-muted">What do I know?</h3>
+          <h3 class="section-subheading text-muted">What I can do?</h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-video fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Editing</h4>
+          <p class="text-muted">I edit videos via Adobe Premiere. </p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Designing</h4>
+          <p class="text-muted">Check out my portfolio!</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-pencil-alt fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
-            quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Drawing</h4>
+          <p class="text-muted">I can draw on various materials.</p>
         </div>
       </div>
     </div>
@@ -115,7 +132,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">What did I do</h3>
+          <h3 class="section-subheading text-muted">What did I do?</h3>
         </div>
       </div>
       <div class="row">
@@ -143,7 +160,7 @@
             <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Poster Design</h4>
+            <h4>Poster</h4>
             <p class="text-muted">Infographics</p>
           </div>
         </div>
@@ -157,8 +174,8 @@
             <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Painting</h4>
-            <p class="text-muted">Acrylic Painting</p>
+            <h4>Booklet</h4>
+            <p class="text-muted">"Me and My Family"</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -171,7 +188,7 @@
             <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Promotion Design</h4>
+            <h4>Promotion</h4>
             <p class="text-muted">Exhibition Promotion</p>
           </div>
         </div>
@@ -207,12 +224,12 @@
     </div>
   </section>
 
-  <!-- About -->
-  <section class="page-section" id="about">
+  <!-- Story -->
+  <section class="page-section" id="Story">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
+          <h2 class="section-heading text-uppercase">Story</h2>
           <h3 class="section-subheading text-muted">Interesting Storytelling of My Names</h3>
         </div>
       </div>
@@ -425,6 +442,26 @@
   </footer>
 
   <!-- Portfolio Modals -->
+  <style>
+      .project-slider {
+        height: 100%;
+        min-height: 400px;
+      }
+
+      .project-slider .slick-list,
+      .project-slider .slick-track,
+      .project-slider .slick-slide,
+      .project-slider .slick-slide>div {
+        height: 100%;
+      }
+
+      .project-slider .image-bg {
+        height: 100%;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
 
   <!-- Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -509,15 +546,15 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Booklet design</h2>
+                <p class="item-intro text-muted">"Me and My Family" booklet.</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/slider/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>In this project, I carried a consistent design theme via consistent design elements 
+                  throughout the booklet. I recorded things related to my family and me, including 
+                  numbers, location, time, etc. Spread joy with the fun issues of my family.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Category: Identity</li>
+                  <li>Date: March 2019</li>
+                  <li>Category: Booklet design</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -581,10 +618,11 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/slider/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <div class="slider project-slider">
+                    <div class="image-bg" style="background-image:url(img/portfolio/slider/05-full.jpg);"></div>
+                    <div class="image-bg" style="background-image:url(img/portfolio/slider/06-full.jpg);"></div>
+                  </div>
+                <p>Use this area to describe your project.</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Category: Website Design</li>
@@ -614,16 +652,16 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">AdLingo</h2>
+                <h2 class="text-uppercase">ADLingo</h2>
                 <p class="item-intro text-muted">A dictionary for advertisers.</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/slider/06-full.jpg" alt="">
-                <p>Getting bored by the paper dictionary? Take a look at this AdLingo printed 
+                <p>Getting bored by the paper dictionary? Take a look at this ADLingo printed 
                   on the toilet paper. With over 50 different layouts, you never feel dull with 
                   this dictionary. Gaining while losing. You can get knowledge or inspiration even 
                   when you are in the toilet. </p>
                 <ul class="list-inline">
                   <li>Date: May 2019</li>
-                  <li>Category: Typography</li>
+                  <li>Category: Typography design</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -642,6 +680,94 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <style>
+      .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+      }
+  
+      .slick-dots li {
+        display: inline-block;
+      }
+  
+      .slick-dots li button {
+        outline: none;
+        display: inline-block;
+        background-color: transparent;
+        border-width: 0;
+      }
+  
+      .slick-dots li button span {
+        display: none;
+      }
+  
+      .slick-dots li button:before {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        content: '';
+        background-color: #ffffff;
+      }
+  
+      .slick-dots li.slick-active button:before {
+        background-color: #000000;
+      }
+  
+      .slick-buttons {
+        background-color: transparent;
+        border-width: 0;
+      }
+  
+      .slick-buttons {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        z-index: 2;
+      }
+  
+      .slick-buttons span {
+        display: none;
+      }
+  
+      .slick-buttons.slick-prev:before,
+      .slick-buttons.slick-next:before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-color: #ffffff;
+        content: '';
+      }
+  
+      .slick-buttons.slick-prev {
+        left: 20px;
+      }
+  
+      .slick-buttons.slick-prev:before {
+        border-top-width: 8px;
+        border-left-width: 8px;
+        border-top-style: solid;
+        border-left-style: solid;
+        transform: rotate(-45deg);
+      }
+  
+      .slick-buttons.slick-next:before {
+        border-bottom-width: 8px;
+        border-right-width: 8px;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        transform: rotate(-45deg);
+      }
+  
+      .slick-buttons.slick-next {
+        right: 20px;
+      }
+    </style>
 
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
@@ -649,7 +775,22 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.slider').slick({
+        autoplay: true,
+        dots: true,
+        prevArrow: '<button type="button" class="slick-buttons slick-prev"><span>Previous</span></button>',
+        nextArrow: '<button type="button" class="slick-buttons slick-next"><span>Next</span></button>',
+        customPaging: function (slick, index) {
+          return '<button><span>' + (index + 1) + '</span></button>';
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
